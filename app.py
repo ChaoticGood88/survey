@@ -10,7 +10,6 @@ app.config['SECRET_KEY'] = 'mysecretkey'  # Replace 'mysecretkey' with a strong,
 
 # Enable debug mode and set up the Flask Debug Toolbar
 app.debug = True
-app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False  # Prevent toolbar from disappearing on redirects
 
 # Set up the Debug Toolbar
 toolbar = DebugToolbarExtension(app)
